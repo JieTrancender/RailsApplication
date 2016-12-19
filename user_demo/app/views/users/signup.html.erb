@@ -1,0 +1,25 @@
+<%= form_for @user do |f| %>
+  <%= f.label :name, "用户名:" %>
+  <br><%= f.text_field :name %>
+  <% if @user.errors[:name].any? %>
+    <p><%= @user.errors[:name][0] %></p>
+  <% end %>
+
+    <br><%= f.label :email %>
+  <br><%= f.text_field :email %>
+  <% if @user.errors[:email].any? %>
+    <p><%= @user.errors[:email][0] %></p>
+  <% end %>
+    <br><%= f.label :password, "密码" %>
+  <br><%= f.password_field :password %>
+  <% if @user.errors[:password].any? %>
+    <p><%= @user.errors[:password][0] %></p>
+  <% end %>
+    <br><%= f.label :password_confirmation, "请在输入一次" %>
+  <br><%= f.password_field :password_confirmation %>
+  <% if @user.errors[:password_confirmation].any? %>
+    <p><%= @user.errors[:password_confirmation][0] %></p>
+  <% end %>
+
+    <br><%= f.submit "注册" %>
+<% end %>
