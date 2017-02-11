@@ -56,9 +56,6 @@
 		<a href="#myCarousel" data-slide = "next" class = "carousel-control right">&rsaquo;</a>
 	</div>
 
-
-
-
 	<script src = "./js/jquery.min.js"></script>
 	<script src = "./js/bootstrap.min.js"></script>
 
@@ -70,15 +67,10 @@
 				interval : 4000
 			});
 
-
-
-
 			//设置垂直居中
 			$('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
 			$(window).resize(function () {
-				var $height = $('.carousel-inner img').eq(0).height() || 
-											$('.carousel-inner img').eq(1).height() || 
-											$('.carousel-inner img').eq(2).height()
+				var $height = $('.carousel-inner img').eq(0).height() || $('.carousel-inner img').eq(1).height() || $('.carousel-inner img').eq(2).height()
 				$('.carousel-control').css('line-height', $height + 'px');
 				// console.log($('.carousel-inner img').height() + 'px');
 			});
