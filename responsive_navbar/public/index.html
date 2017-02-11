@@ -52,9 +52,76 @@
 				<img src="./img/five.jpeg" alt="./img/five.jpeg">
 			</div>
 		</div>
-		<a href="#myCarousel" data-slide = "prev" class = "carousel-control left">&lsaquo;</a>
-		<a href="#myCarousel" data-slide = "next" class = "carousel-control right">&rsaquo;</a>
+		<a href="#myCarousel" data-slide = "prev" class = "carousel-control left">
+			<span class = "glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#myCarousel" data-slide = "next" class = "carousel-control right">
+			<span class = "glyphicon glyphicon-chevron-right"></span>
+		</a>
 	</div>
+
+	<div class="tab1">
+		<div class="container">
+			<h2 class = "tab-h2">为什么选择瓢城企业培训</h2>
+			<p class = "tab-p">强大的师资力量，完美的实战型管理课程，让你的企业实现质的飞越！</p>
+			<div class="row">
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href="#"><img src="./img/course_content.png" class = "media-object" alt="./img/course_content.png"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">课程内容</h4>
+							<p class = "text-muted">其他：高校不知名的讲师编写，没有任何实战价值的教材！</p>
+							<p>我们：知名企业家、管理学大师联合编写的具有实现性教材！</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href="#"><img src="./img/faculty.png" class = "media-object" alt="./img/faculty.png"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">师资力量</h4>
+							<p class = "text-muted">其他：高校不知名的讲师编写，没有任何实战价值的教材！</p>
+							<p>我们：知名企业家、管理学大师联合编写的具有实现性教材！</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href="#"><img src="./img/teaching_arrangement.png" class = "media-object" alt="./img/teaching_arrangement.png"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">时间安排</h4>
+							<p class = "text-muted">其他：无法保证上课效率、没有时间表，当天任务无法完成！</p>
+							<p>我们：美国哈佛、耶鲁等世界一流高校、享有声誉的名牌专家！</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href="#"><img src="./img/service_team.png" class = "media-object" alt="./img/service_team.png"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">service_team</h4>
+							<p class = "text-muted">其他：社会招聘的、服务水平参差不齐的普通员工！</p>
+							<p>我们：内部培养、经受过良好高端服务培训的高标准员工！</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+	<p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+	<p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+	<p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+	<p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
 
 	<script src = "./js/jquery.min.js"></script>
 	<script src = "./js/bootstrap.min.js"></script>
@@ -67,13 +134,13 @@
 				interval : 4000
 			});
 
-			//设置垂直居中
-			$('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
-			$(window).resize(function () {
-				var $height = $('.carousel-inner img').eq(0).height() || $('.carousel-inner img').eq(1).height() || $('.carousel-inner img').eq(2).height()
-				$('.carousel-control').css('line-height', $height + 'px');
-				// console.log($('.carousel-inner img').height() + 'px');
-			});
+			// //设置垂直居中
+			// $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
+			// $(window).resize(function () {
+			// 	var $height = $('.carousel-inner img').eq(0).height() || $('.carousel-inner img').eq(1).height() || $('.carousel-inner img').eq(2).height()
+			// 	$('.carousel-control').css('line-height', $height + 'px');
+			// 	// console.log($('.carousel-inner img').height() + 'px');
+			// });
 		});
 	</script>
 		
