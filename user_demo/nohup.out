@@ -3397,3 +3397,776 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 112ms (Views: 95.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 110.17.72.214 at 2016-12-19 23:44:22 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:24 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:25 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3cF0BwOBxaDIIyZ+/t9L6P2wFfIy8Yr3a6g5ReHXh8L4Fq8a7kY/TXhC2467MVt1a2DDb2eENnKTgsTNJJvrMQ==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (187.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 190ms (ActiveRecord: 187.5ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:26 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:28 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zDLbEJ0J6rfSoy0+EQTd8nKMctCHPB9fp6wYeZaMLxuOZpZxfdLkdssSLD7JNyvzNwu0642HSMF0uGmEML/aog==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:28 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:29 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjUrtqtMD8i5WlvEIrJQ0ITG5OezSvo11x4ciSHRYkjwYWbXS5cBCaDrWsT6gabRwUEi3LnxrasECm10h+KX8Q==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:29 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lK47EcNyO4Lf13pHhjrhvp3yYCHQTj4NkrBC9LKQaujW+nZwI6k1Q8Zme0deCRe/2HWmGtr1aZNBpDMJFKOfUQ==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ek9lxUUKiCHVd+YWWTGBN9SAlDUy0nYLBsYoaF4sSlFQGyikpdGG4MzG5xaBAnc2kQdSDjhpIZXV0lmV+B+/6A==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fKL17QIFkN+KufK5bU23EzDF4S2WAtI6RDHUMdSOWb0+9riM4t6eHpMI87m1fkESdUInFpy5haSXJaXMcr2sBA==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:30 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:31 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PMyYdjMw/bbgymZJdXkn8UUE6bZ7+nT8zbH0jyS3AQF+mNUX0+vzd/l7Z0mtStHwAIMvjXFBI2IepYVygoT0uA==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:31 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:31 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Ka5TMY5IgTD+EM7s1c63eGxUegBG5P2pfv13CKBN5ym8vQtJuIsxdpJQjtrZMzcpDaX0wugxGh274QhhLLCJQ==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:31 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:32 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3YyNF6k0FbTlAP23L55z5q05sT2xXp6ZVJ79sTHrF0+f2MB2Se8bdfyx/Lf3rYXn6L53BrvlyQeHioxMl9ji9g==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:32 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:34 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+EClyvGANdbzgvF8K76dD3UuUJHbSuYy1Uu9TNU99sm6FOirEVs7F+oz8HzzjWsOMKmWqtHxsawGX8yxcw4DcA==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "remember_me"=>"1", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:34 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_login_session" for 110.17.72.214 at 2016-12-19 23:44:35 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create_login_session as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JVxTL5zQeqx2UBDoJwlZ0KblSKg/GUWdxhG34bZ25d1nCB5OfAt0bW/hEej/Oq/R42KOkzWiEgMVBcYcEEUQZA==", "name"=>"582865471@qq.com", "password"=>"[FILTERED]", "commit"=>"登录"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`name` = '582865471@qq.com' LIMIT 1[0m
+Redirected to http://jie-trancender.org:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 110.17.72.214 at 2016-12-19 23:44:35 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#login as HTML
+  Rendering users/login.html.erb within layouts/application
+  Rendered users/login.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 110.17.72.214 at 2016-12-19 23:44:38 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#signup as HTML
+  Rendering users/signup.html.erb within layouts/application
+  Rendered users/signup.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 110.17.72.214 at 2016-12-19 23:44:39 +0800
+Cannot render console from 110.17.72.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qp6YqzSu9pxuHJGoRsClatRU8DRJzBGKRKdpZ2IXjSSdkRL0kSCbLseQeGgqarXVOS4SW16dcvxWkN+b7frK3Q==", "user"=>{"name"=>"", "email"=>"582865471@qq.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"注册"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`name` = '' LIMIT 1[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = '582865471@qq.com' LIMIT 1[0m
+  [1m[35m (19.8ms)[0m  [1m[31mROLLBACK[0m
+  Rendering users/signup.html.erb within layouts/application
+  Rendered users/signup.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 159ms (Views: 31.7ms | ActiveRecord: 20.7ms)
+
+
+Started GET "/" for 42.156.251.187 at 2016-12-21 07:23:23 +0800
+Cannot render console from 42.156.251.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.187 at 2016-12-22 07:19:41 +0800
+Cannot render console from 42.156.251.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.187 at 2016-12-23 07:25:21 +0800
+Cannot render console from 42.156.251.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 82.221.111.35 at 2016-12-23 13:33:19 +0800
+Cannot render console from 82.221.111.35! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as */*
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.188 at 2016-12-24 07:34:40 +0800
+Cannot render console from 42.156.251.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.185 at 2016-12-25 07:27:28 +0800
+Cannot render console from 42.156.251.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.187 at 2016-12-26 07:42:02 +0800
+Cannot render console from 42.156.251.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 42.156.251.185 at 2016-12-27 07:41:34 +0800
+Cannot render console from 42.156.251.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 260ms (Views: 259.2ms | ActiveRecord: 0.0ms)
+
+
+2016-12-29 12:41:12 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2016-12-29 12:41:12 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2016-12-29 18:03:59 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2016-12-29 18:03:59 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2016-12-29 18:03:59 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2016-12-29 18:03:59 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2016-12-30 20:21:55 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2016-12-30 20:21:55 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-02 09:16:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-02 09:16:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-08 15:06:37 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-08 15:06:37 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:02 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:02 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:03 +0800: Rack app error handling request { GET / }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:117:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:117:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:100:in `reconnect!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:400:in `verify!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:770:in `block in checkout_and_verify'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_checkout_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:769:in `checkout_and_verify'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-01-23 13:56:04 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:04 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:05 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:05 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:05 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:05 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:06 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:06 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:07 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:07 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:07 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:07 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:08 +0800: Rack app error handling request { OPTIONS / }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:117:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:117:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:100:in `reconnect!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:400:in `verify!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:770:in `block in checkout_and_verify'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_checkout_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:769:in `checkout_and_verify'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-01-23 13:56:09 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:09 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"OPTIONS", "REQUEST_PATH"=>"/", "REQUEST_URI"=>"/"}
+---
+2017-01-23 13:56:10 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:10 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:10 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:10 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:11 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:11 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:12 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:12 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:12 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:12 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:13 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:13 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:14 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:14 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:15 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:15 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:15 +0800: Rack app error handling request { GET /nice%20ports%2C/Tri%6Eity.txt%2ebak }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-01-23 13:56:16 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:16 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:17 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:17 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:17 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:17 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:18 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:18 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"OPTIONS", "REQUEST_URI"=>"sip:nm"}
+---
+2017-01-23 13:56:19 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:19 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:20 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:20 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:20 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:20 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:21 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:21 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:22 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:22 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:22 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:22 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:24 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:24 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:25 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:25 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-01-23 13:56:26 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-01-23 13:56:26 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:39 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:39 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:39 +0800: Rack app error handling request { GET / }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: Rack app error handling request { OPTIONS / }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"OPTIONS", "REQUEST_PATH"=>"/", "REQUEST_URI"=>"/"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:40 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:40 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: Rack app error handling request { GET /nice%20ports%2C/Tri%6Eity.txt%2ebak }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2", "REQUEST_METHOD"=>"OPTIONS", "REQUEST_URI"=>"sip:nm"}
+---
+2017-02-08 07:15:41 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:41 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:42 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:42 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-08 07:15:49 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-08 07:15:49 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-09 03:12:18 +0800: HTTP parse error, malformed request (): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2017-02-09 03:12:18 +0800: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:<STDERR>>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.6.2 Sleepy Sunday Serenity", "GATEWAY_INTERFACE"=>"CGI/1.2"}
+---
+2017-02-10 17:26:36 +0800: Rack app error handling request { GET / }
+#<Mysql2::Error: Access denied for user 'Joason'@'localhost' (using password: NO)>
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `connect'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5/lib/mysql2/client.rb:89:in `initialize'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `new'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `mysql2_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/connection_handling.rb:91:in `connection'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/query_cache.rb:47:in `block in install_executor_hooks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `instance_exec'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:396:in `block in make_lambda'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:169:in `block (2 levels) in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:547:in `block (2 levels) in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `catch'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:546:in `block in default_terminator'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:170:in `block in halting'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `block in call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `each'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:454:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_complete_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:107:in `complete!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `ensure in block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:64:in `block in run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `tap'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/execution_wrapper.rb:58:in `run!'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:10:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/configuration.rb:225:in `call'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:578:in `handle_request'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:415:in `process_client'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/server.rb:275:in `block in run'
+/usr/local/ruby/lib/ruby/gems/2.3.0/gems/puma-3.6.2/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
